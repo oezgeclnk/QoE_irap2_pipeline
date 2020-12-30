@@ -305,8 +305,8 @@ class MachineLearningAlgorithm(Process):
 		self.processID = processID
 	
 	def load_model_data(self):
-		scaler = load('/home/oce/Desktop/run_pipeline/scalers/scaler_df13_092020.joblib')		#Load stored scaler
-		rf_clf = load('/home/oce/Desktop/run_pipeline/models/mlp_model_092020_bestparams.joblib')				#Load Model
+		scaler = load('/home/oce/Desktop/run_pipeline/scalers/rf_scaler.joblib')		#Load stored scaler
+		rf_clf = load('/home/oce/Desktop/run_pipeline/models/rf_model_400_smote_2l.joblib')				#Load Model
 		
 		return (scaler, rf_clf)
 	
