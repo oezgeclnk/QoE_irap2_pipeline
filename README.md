@@ -15,3 +15,5 @@ models folder: This is where you can find the available ML models. You can use b
 scalers folder: This is where you can find the scalers that is matching both models. Make sure that you use the ones that are matching.
 
 emulation.py: This script is used for emulating bad network conditions during the operation. (see documentation)
+
+QTSapp folder: Manuals for QTS App And Portal, as well as the apk file to install the app
