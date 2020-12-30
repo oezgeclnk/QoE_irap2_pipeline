@@ -17,3 +17,5 @@ scalers folder: This is where you can find the scalers that is matching both mod
 emulation.py: This script is used for emulating bad network conditions during the operation. (see documentation)
 
 QTSapp folder: Manuals for QTS App & Portal, as well as the apk file to install the app
+
+short_paper_QoE: our paper on "Machine Learning based KPI Monitoring of Video Streaming Traffic for QoE Estimation"
